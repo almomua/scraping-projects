@@ -1,0 +1,28 @@
+# Scraper Tools Dependencies
+# ===========================
+# Install with: pip install -r requirements.txt
+
+# Core Web Crawling
+crawl4ai>=0.3.0
+playwright>=1.40.0
+
+# LLM Integration
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-google-genai>=1.0.0
+google-generativeai>=0.3.0
+
+# Environment Variables
+python-dotenv>=1.0.0
+
+# Data Validation
+pydantic>=2.0.0
+
+# HTML Parsing
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# Optional: Alternative LLM Providers (uncomment if needed)
+# openai>=1.0.0
+# anthropic>=0.7.0
+# langchain-community>=0.1.0  # For DeepSeek and other providers
